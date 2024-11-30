@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-cli-project",
+  "version": "1.0.0",
+  "description": "A project using Tailwind CSS with CLI",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.15"
+  },
+  "devDependencies": {},
+  "author": "Your Name",
+  "license": "MIT"
+}
